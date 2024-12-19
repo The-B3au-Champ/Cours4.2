@@ -3,9 +3,9 @@ name: CI - Exécution des tests Jest
 # Déclencheurs du pipeline
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
  
 # Tâches à exécuter
 jobs:
